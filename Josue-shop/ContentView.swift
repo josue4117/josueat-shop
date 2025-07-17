@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    var screen = NSScreen.main!.visibleFrame
     var body: some View {
-        HStack {
+        HStack(spacing:0){
             SidebarView()
+                .frame(width: screen.width / 7, height: screen.height)
+
+            VStack(spacing:0){
+                SearchBarView()
+                Spacer()
+            }
+            
         }
-        .padding()
+        .frame(width: screen.width, height: screen.height)
     }
 }
 

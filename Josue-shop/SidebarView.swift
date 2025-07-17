@@ -8,17 +8,20 @@ import SwiftUI
 
 struct SidebarView: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
+        VStack(alignment: .leading, spacing: 10) {
             Text("Josue-Shop")
                 .font(.custom("SomeCustomFont", size: 24))
                 .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
                 .frame(maxWidth: .infinity, alignment: .center)
                 .multilineTextAlignment(.center)
-                .padding(.bottom, -10)
+                .padding(.bottom, 20)
+                .padding(.top, 30)
+                .padding(.horizontal)
 
             Divider()
                 .overlay(Color(red: 0.9, green: 0.9, blue: 0.9))
-                .padding(.bottom, -10)
+                .padding(.bottom, 20)
+                .padding(.horizontal)
 
             Button {
             } label: {
@@ -34,6 +37,7 @@ struct SidebarView: View {
             }
             .buttonStyle(PlainButtonStyle())
             .padding(.bottom, 10)
+            .padding(.horizontal)
 
             SidebarItem(icon: "leaf.fill", text: "Categories")
             SidebarItem(icon: "heart.fill", text: "Favourite")
@@ -44,8 +48,7 @@ struct SidebarView: View {
 
             Spacer()
         }
-        .padding()
-        .frame(maxWidth: 200)
+        .frame(width: 200, alignment: .topLeading)
         .background(Color.white)
     }
 }
@@ -62,11 +65,11 @@ struct SidebarItem: View {
                 Text(text)
                 Spacer()
             }
-            .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47)) // Match icon color
+            .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
             .contentShape(Rectangle())
         }
         .buttonStyle(PlainButtonStyle())
-        .padding(.vertical, 8)
+        .padding(.vertical, 8)         .padding(.horizontal) 
     }
 }
 

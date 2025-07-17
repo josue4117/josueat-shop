@@ -14,7 +14,7 @@ struct SidebarView: View {
                 .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
                 .frame(maxWidth: .infinity, alignment: .center)
                 .multilineTextAlignment(.center)
-                .padding(.bottom, 20)
+                .padding(.bottom,20)
                 .padding(.top, 30)
                 .padding(.horizontal)
 

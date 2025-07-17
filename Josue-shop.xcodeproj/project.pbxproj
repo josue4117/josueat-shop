@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		98A3526B2E28BB2D00D4C5B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98A352542E28BB2B00D4C5B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A3525B2E28BB2B00D4C5B1;
+			remoteInfo = "Josue-shop";
+		};
+		98A352752E28BB2D00D4C5B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98A352542E28BB2B00D4C5B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A3525B2E28BB2B00D4C5B1;
+			remoteInfo = "Josue-shop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98A3525C2E28BB2B00D4C5B1 /* Josue-shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Josue-shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A3526A2E28BB2D00D4C5B1 /* Josue-shopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Josue-shopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A352742E28BB2D00D4C5B1 /* Josue-shopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Josue-shopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		98A3525E2E28BB2B00D4C5B1 /* Josue-shop */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Josue-shop";
+			sourceTree = "<group>";
+		};
+		98A3526D2E28BB2D00D4C5B1 /* Josue-shopTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Josue-shopTests";
+			sourceTree = "<group>";
+		};
+		98A352772E28BB2D00D4C5B1 /* Josue-shopUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Josue-shopUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98A352592E28BB2B00D4C5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A352672E28BB2D00D4C5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A352712E28BB2D00D4C5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98A352532E28BB2B00D4C5B1 = {
+			isa = PBXGroup;
+			children = (
+				98A3525E2E28BB2B00D4C5B1 /* Josue-shop */,
+				98A3526D2E28BB2D00D4C5B1 /* Josue-shopTests */,
+				98A352772E28BB2D00D4C5B1 /* Josue-shopUITests */,
+				98A3525D2E28BB2B00D4C5B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98A3525D2E28BB2B00D4C5B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98A3525C2E28BB2B00D4C5B1 /* Josue-shop.app */,
+				98A3526A2E28BB2D00D4C5B1 /* Josue-shopTests.xctest */,
+				98A352742E28BB2D00D4C5B1 /* Josue-shopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98A3525B2E28BB2B00D4C5B1 /* Josue-shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A3527E2E28BB2D00D4C5B1 /* Build configuration list for PBXNativeTarget "Josue-shop" */;
+			buildPhases = (
+				98A352582E28BB2B00D4C5B1 /* Sources */,
+				98A352592E28BB2B00D4C5B1 /* Frameworks */,
+				98A3525A2E28BB2B00D4C5B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				98A3525E2E28BB2B00D4C5B1 /* Josue-shop */,
+			);
+			name = "Josue-shop";
+			packageProductDependencies = (
+			);
+			productName = "Josue-shop";
+			productReference = 98A3525C2E28BB2B00D4C5B1 /* Josue-shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98A352692E28BB2D00D4C5B1 /* Josue-shopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A352812E28BB2D00D4C5B1 /* Build configuration list for PBXNativeTarget "Josue-shopTests" */;
+			buildPhases = (
+				98A352662E28BB2D00D4C5B1 /* Sources */,
+				98A352672E28BB2D00D4C5B1 /* Frameworks */,
+				98A352682E28BB2D00D4C5B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98A3526C2E28BB2D00D4C5B1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				98A3526D2E28BB2D00D4C5B1 /* Josue-shopTests */,
+			);
+			name = "Josue-shopTests";
+			packageProductDependencies = (
+			);
+			productName = "Josue-shopTests";
+			productReference = 98A3526A2E28BB2D00D4C5B1 /* Josue-shopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98A352732E28BB2D00D4C5B1 /* Josue-shopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A352842E28BB2D00D4C5B1 /* Build configuration list for PBXNativeTarget "Josue-shopUITests" */;
+			buildPhases = (
+				98A352702E28BB2D00D4C5B1 /* Sources */,
+				98A352712E28BB2D00D4C5B1 /* Frameworks */,
+				98A352722E28BB2D00D4C5B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98A352762E28BB2D00D4C5B1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				98A352772E28BB2D00D4C5B1 /* Josue-shopUITests */,
+			);
+			name = "Josue-shopUITests";
+			packageProductDependencies = (
+			);
+			productName = "Josue-shopUITests";
+			productReference = 98A352742E28BB2D00D4C5B1 /* Josue-shopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98A352542E28BB2B00D4C5B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					98A3525B2E28BB2B00D4C5B1 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					98A352692E28BB2D00D4C5B1 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 98A3525B2E28BB2B00D4C5B1;
+					};
+					98A352732E28BB2D00D4C5B1 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 98A3525B2E28BB2B00D4C5B1;
+					};
+				};
+			};
+			buildConfigurationList = 98A352572E28BB2B00D4C5B1 /* Build configuration list for PBXProject "Josue-shop" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98A352532E28BB2B00D4C5B1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 98A3525D2E28BB2B00D4C5B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A3525B2E28BB2B00D4C5B1 /* Josue-shop */,
+				98A352692E28BB2D00D4C5B1 /* Josue-shopTests */,
+				98A352732E28BB2D00D4C5B1 /* Josue-shopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98A3525A2E28BB2B00D4C5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A352682E28BB2D00D4C5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A352722E28BB2D00D4C5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98A352582E28BB2B00D4C5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A352662E28BB2D00D4C5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A352702E28BB2D00D4C5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98A3526C2E28BB2D00D4C5B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98A3525B2E28BB2B00D4C5B1 /* Josue-shop */;
+			targetProxy = 98A3526B2E28BB2D00D4C5B1 /* PBXContainerItemProxy */;
+		};
+		98A352762E28BB2D00D4C5B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98A3525B2E28BB2B00D4C5B1 /* Josue-shop */;
+			targetProxy = 98A352752E28BB2D00D4C5B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98A3527C2E28BB2D00D4C5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98A3527D2E28BB2D00D4C5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		98A3527F2E28BB2D00D4C5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Josue-shop/Josue_shop.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Josue.Josue-shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		98A352802E28BB2D00D4C5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Josue-shop/Josue_shop.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Josue.Josue-shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		98A352822E28BB2D00D4C5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Josue.Josue-shopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Josue-shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Josue-shop";
+			};
+			name = Debug;
+		};
+		98A352832E28BB2D00D4C5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Josue.Josue-shopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Josue-shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Josue-shop";
+			};
+			name = Release;
+		};
+		98A352852E28BB2D00D4C5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Josue.Josue-shopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Josue-shop";
+			};
+			name = Debug;
+		};
+		98A352862E28BB2D00D4C5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Josue.Josue-shopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Josue-shop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98A352572E28BB2B00D4C5B1 /* Build configuration list for PBXProject "Josue-shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A3527C2E28BB2D00D4C5B1 /* Debug */,
+				98A3527D2E28BB2D00D4C5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A3527E2E28BB2D00D4C5B1 /* Build configuration list for PBXNativeTarget "Josue-shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A3527F2E28BB2D00D4C5B1 /* Debug */,
+				98A352802E28BB2D00D4C5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A352812E28BB2D00D4C5B1 /* Build configuration list for PBXNativeTarget "Josue-shopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A352822E28BB2D00D4C5B1 /* Debug */,
+				98A352832E28BB2D00D4C5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A352842E28BB2D00D4C5B1 /* Build configuration list for PBXNativeTarget "Josue-shopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A352852E28BB2D00D4C5B1 /* Debug */,
+				98A352862E28BB2D00D4C5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98A352542E28BB2B00D4C5B1 /* Project object */;
+}

@@ -67,7 +67,7 @@ struct PopularProductsView: View {
 
                 Text("View More")
                     .font(.subheadline)
-                    .foregroundColor(.gray)
+                    .foregroundColor(.green)
             }
             .padding(.horizontal)
 

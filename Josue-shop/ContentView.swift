@@ -4,7 +4,6 @@
 //
 //  Created by Ximena Ibarra Sanchez  on 16/7/25.
 //
-
 import SwiftUI
 
 struct ContentView: View {
@@ -25,6 +24,9 @@ struct ContentView: View {
                     .padding(.bottom, 20)
 
                 PopularProductsView()
+                    .padding(.bottom, 20)
+
+                DiscountShopView()
                     .padding(.bottom, 20)
                 Spacer()
             }

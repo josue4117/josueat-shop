@@ -24,6 +24,8 @@ struct ContentView: View {
                 CategoriesView()
                     .padding(.bottom, 20)
 
+                PopularProductsView()
+                    .padding(.bottom, 20)
                 Spacer()
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)

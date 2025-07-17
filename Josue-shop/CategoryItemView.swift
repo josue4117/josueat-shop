@@ -12,11 +12,10 @@ struct CategoryItemView: View {
 
     var body: some View {
         VStack(spacing: 12) {
-            Image(systemName: iconName)
+            Image(iconName)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 60, height: 60)
-                .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
                 .padding(20)
                 .background(Color.white)
                 .cornerRadius(20)
@@ -72,16 +71,16 @@ struct CategoriesView: View {
             .padding(.horizontal)
 
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 25) { 
-                    CategoryItemView(iconName: "apple.fill", categoryName: "Fruits")
-                    CategoryItemView(iconName: "bread.slice.fill", categoryName: "Bread")
-                    CategoryItemView(iconName: "leaf.fill", categoryName: "Vegetable")
-                    CategoryItemView(iconName: "fish.fill", categoryName: "Fish")
-                    CategoryItemView(iconName: "fork.knife", categoryName: "Meat")
-                    CategoryItemView(iconName: "bottle.fill", categoryName: "Drinks")
-                    CategoryItemView(iconName: "tortoise.fill", categoryName: "Sea Food")
-                    CategoryItemView(iconName: "icecream.fill", categoryName: "Ice cream")
-                    CategoryItemView(iconName: "cup.and.saucer.fill", categoryName: "Juice")
+                HStack(spacing: 25) {
+                    CategoryItemView(iconName: "fruta", categoryName: "Fruits")
+                    CategoryItemView(iconName: "pan", categoryName: "Bread")
+                    CategoryItemView(iconName: "vegetales", categoryName: "Vegetable")
+                    CategoryItemView(iconName: "pescado", categoryName: "Fish")
+                    CategoryItemView(iconName: "carne", categoryName: "Meat")
+                    CategoryItemView(iconName: "bebidas", categoryName: "Drinks")
+                    CategoryItemView(iconName: "camaron", categoryName: "Sea Food")
+                    CategoryItemView(iconName: "helado", categoryName: "Ice cream")
+                    CategoryItemView(iconName: "jugo", categoryName: "Juice")
                     CategoryItemView(iconName: "jar.fill", categoryName: "Jam")
                 }
                 .padding(.horizontal)
@@ -90,6 +89,7 @@ struct CategoriesView: View {
         .background(Color.white)
     }
 }
+
 struct CategoriesView_Previews: PreviewProvider {
     static var previews: some View {
         CategoriesView()

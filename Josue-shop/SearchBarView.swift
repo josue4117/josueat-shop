@@ -7,43 +7,46 @@
 import SwiftUI
 
 struct SearchBarView: View {
-    @State private var searchText: String = ""
+    @State private var searchText = ""
 
     var body: some View {
         HStack(spacing: 15) {
-            HStack(spacing: 8) {
+            HStack {
                 Image(systemName: "magnifyingglass")
-                    .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
+                    .foregroundColor(accentGreen)
                 
                 TextField("Search your products...", text: $searchText)
-                    .font(.subheadline)
-                    .foregroundColor(.gray)
                     .textFieldStyle(PlainTextFieldStyle())
+                    .font(.body)
+                    .foregroundColor(.black)
             }
-            .padding(.horizontal, 12)
-            .padding(.vertical, 8)
-            .cornerRadius(8)
-            .frame(maxWidth: .infinity)
-            Image(systemName: "calendar")
-                .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
-            Image(systemName: "heart")
-                .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
-            Image(systemName: "bell")
-                .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
-            HStack(spacing: 4) {
+            .padding(.horizontal, 15)
+            .padding(.vertical, 10)
+            .background(Color.white)
+            .cornerRadius(12)
+            .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 2)
+            .overlay(
+                RoundedRectangle(cornerRadius: 12)
+                    .stroke(accentGreen.opacity(0.3), lineWidth: 1)
+            )
+
+            Spacer()
+
+            HStack(spacing: 20) {
+                Image(systemName: "calendar")
+                    .font(.title2)
+                    .foregroundColor(accentGreen)
+                
+                Image(systemName: "bell")
+                    .font(.title2)
+                    .foregroundColor(accentGreen)
+                
                 Image(systemName: "person.circle.fill")
-                    .resizable()
-                    .frame(width: 30, height: 30)
-                    .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
-                Image(systemName: "chevron.down")
-                    .font(.caption)
-                    .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
+                    .font(.title2)
+                    .foregroundColor(accentGreen)
             }
         }
         .padding(.horizontal)
-        .padding(.vertical, 10)
-        .background(Color.white)
-        .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
     }
 }
 
@@ -51,6 +54,7 @@ struct SearchBarView_Previews: PreviewProvider {
     static var previews: some View {
         SearchBarView()
             .previewLayout(.sizeThatFits)
-            .padding(.top, 20)
+            .padding()
+            .background(Color.gray.opacity(0.1))
     }
 }

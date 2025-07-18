@@ -6,6 +6,8 @@
 //
 import SwiftUI
 
+let AccentGreen = Color(red: 0.20, green: 0.65, blue: 0.30)
+
 struct CategoryItemView: View {
     let iconName: String
     let categoryName: String
@@ -35,7 +37,7 @@ struct CategoriesView: View {
         VStack(alignment: .leading, spacing: 20) {
             HStack {
                 Text("Categories")
-                    .font(.custom("SomeCustomFont", size: 28))
+                    .font(.title2)
                     .fontWeight(.bold)
                     .foregroundColor(.black)
                 
@@ -49,22 +51,22 @@ struct CategoriesView: View {
                 }
                 .padding(.horizontal, 12)
                 .padding(.vertical, 7)
-                .background(Color(red: 0.29, green: 0.78, blue: 0.47).opacity(0.15))
+                .background(accentGreen.opacity(0.15))
                 .cornerRadius(10)
-                .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
+                .foregroundColor(accentGreen)
                 
                 Image(systemName: "chevron.left")
                     .font(.body)
                     .padding(10)
-                    .background(Color(red: 0.29, green: 0.78, blue: 0.47).opacity(0.2))
+                    .background(accentGreen.opacity(0.2))
                     .clipShape(Circle())
-                    .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
+                    .foregroundColor(accentGreen)
                 .padding(.leading, 10)
 
                 Image(systemName: "chevron.right")
                     .font(.body)
                     .padding(10)
-                    .background(Color(red: 0.29, green: 0.78, blue: 0.47))
+                    .background(accentGreen)
                     .clipShape(Circle())
                     .foregroundColor(.white)
             }
@@ -81,12 +83,10 @@ struct CategoriesView: View {
                     CategoryItemView(iconName: "camaron", categoryName: "Sea Food")
                     CategoryItemView(iconName: "helado", categoryName: "Ice cream")
                     CategoryItemView(iconName: "jugo", categoryName: "Juice")
-                    CategoryItemView(iconName: "jar.fill", categoryName: "Jam")
                 }
                 .padding(.horizontal)
             }
         }
-        .background(Color.white)
     }
 }
 

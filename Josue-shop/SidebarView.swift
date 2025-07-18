@@ -6,75 +6,65 @@
 //
 import SwiftUI
 
+let accentGreen = Color(red: 0.20, green: 0.65, blue: 0.30)
+
 struct SidebarView: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
+        VStack(alignment: .leading, spacing: 20) {
             Text("Josue-Shop")
-                .font(.custom("SomeCustomFont", size: 24))
-                .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
-                .frame(maxWidth: .infinity, alignment: .center)
-                .multilineTextAlignment(.center)
-                .padding(.bottom,20)
+                .font(.custom("SomeCustomFont", size: 28))
+                .fontWeight(.bold)
+                .foregroundColor(accentGreen)
+                .padding(.horizontal)
                 .padding(.top, 30)
-                .padding(.horizontal)
 
-            Divider()
-                .overlay(Color(red: 0.9, green: 0.9, blue: 0.9))
-                .padding(.bottom, 20)
-                .padding(.horizontal)
-
-            Button {
-            } label: {
-                HStack {
-                    Image(systemName: "square.grid.3x3.fill")
-                    Text("Dashboard")
-                }
-                .foregroundColor(.white)
-                .padding()
-                .frame(maxWidth: .infinity)
-                .background(Color.green)
-                .cornerRadius(8)
+            VStack(alignment: .leading, spacing: 15) {
+                SidebarItem(iconName: "square.grid.2x2.fill", text: "Dashboard", isSelected: true)
+                SidebarItem(iconName: "leaf.fill", text: "Categories", isSelected: false)
+                SidebarItem(iconName: "heart.fill", text: "Favourite", isSelected: false)
+                SidebarItem(iconName: "cart.fill", text: "Orders", isSelected: false)
+                SidebarItem(iconName: "message.fill", text: "Messages", isSelected: false)
+                SidebarItem(iconName: "tag.fill", text: "Top Deals", isSelected: false)
+                SidebarItem(iconName: "gearshape.fill", text: "Settings", isSelected: false)
             }
-            .buttonStyle(PlainButtonStyle())
-            .padding(.bottom, 10)
+            .padding(.top, 20)
             .padding(.horizontal)
-
-            SidebarItem(icon: "leaf.fill", text: "Categories")
-            SidebarItem(icon: "heart.fill", text: "Favourite")
-            SidebarItem(icon: "cart.fill", text: "Orders")
-            SidebarItem(icon: "message.fill", text: "Messages")
-            SidebarItem(icon: "tag.fill", text: "Top Deals")
-            SidebarItem(icon: "gearshape.fill", text: "Settings")
 
             Spacer()
         }
-        .frame(width: 200, alignment: .topLeading)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.white)
     }
 }
 
 struct SidebarItem: View {
-    let icon: String
+    let iconName: String
     let text: String
+    let isSelected: Bool
 
     var body: some View {
-        Button {
-        } label: {
-            HStack {
-                Image(systemName: icon)
-                Text(text)
-                Spacer()
-            }
-            .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
-            .contentShape(Rectangle())
+        HStack(spacing: 10) {
+            Image(systemName: iconName)
+                .font(.body)
+                .foregroundColor(isSelected ? .white : accentGreen)
+
+            Text(text)
+                .font(.body)
+                .fontWeight(isSelected ? .semibold : .regular)
+                .foregroundColor(isSelected ? .white : .gray)
         }
-        .buttonStyle(PlainButtonStyle())
-        .padding(.vertical, 8)         .padding(.horizontal) 
+        .padding(.vertical, 10)
+        .padding(.horizontal, 15)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(isSelected ? accentGreen : Color.clear)
+        .cornerRadius(10)
     }
 }
 
 struct SidebarView_Previews: PreviewProvider {
     static var previews: some View {
         SidebarView()
+            .previewLayout(.sizeThatFits)
+            .frame(width: 200)
     }
 }

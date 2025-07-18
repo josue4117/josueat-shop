@@ -40,7 +40,7 @@ struct DiscountCardView: View {
                     Text("Shop Now")
                         .font(.caption)
                         .fontWeight(.semibold)
-                        .foregroundColor(Color(red: 0.20, green: 0.65, blue: 0.30))
+                        .foregroundColor(accentGreen)
                         .padding(.horizontal, 10)
                         .padding(.vertical, 5)
                         .background(Color.white)
@@ -63,11 +63,9 @@ struct DiscountShopView: View {
                     .fontWeight(.bold)
                     .foregroundColor(.black)
 
-                Spacer()
-                
                 Text("View More")
                     .font(.subheadline)
-                    .foregroundColor(.green)
+                    .foregroundColor(.gray)
             }
             .padding(.horizontal)
 
@@ -83,6 +81,7 @@ struct DiscountShopView: View {
         }
     }
 }
+
 struct DiscountShopView_Previews: PreviewProvider {
     static var previews: some View {
         DiscountShopView()

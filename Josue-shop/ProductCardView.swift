@@ -37,13 +37,13 @@ struct ProductCardView: View {
                 Text(price)
                     .font(.subheadline)
                     .fontWeight(.bold)
-                    .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
+                    .foregroundColor(accentGreen)
 
                 Spacer()
 
                 Image(systemName: "plus.circle.fill")
                     .font(.title2)
-                    .foregroundColor(Color(red: 0.29, green: 0.78, blue: 0.47))
+                    .foregroundColor(accentGreen)
             }
         }
         .padding(15)
@@ -63,11 +63,9 @@ struct PopularProductsView: View {
                     .fontWeight(.bold)
                     .foregroundColor(.black)
 
-                Spacer()
-
                 Text("View More")
                     .font(.subheadline)
-                    .foregroundColor(.green)
+                    .foregroundColor(.gray)
             }
             .padding(.horizontal)
 
@@ -79,9 +77,9 @@ struct PopularProductsView: View {
                     ProductCardView(imageName: "naranja", title: "Orange", subtitle: "Lorem ipsum dolor sit amet,", price: "$12.10 /pre kg")
                     ProductCardView(imageName: "manzanas", title: "Fresh Apple", subtitle: "Lorem ipsum dolor sit amet,", price: "$18.10 /pre kg")
                 }
-                .padding(.horizontal, 30)
+                .padding(.horizontal, 20)
             }
-            .padding(.bottom, 10)
+            .padding(.bottom, 30)
         }
     }
 }
